@@ -1,22 +1,16 @@
 <template>
-  <div id="app">
-    hello
-  </div>
+    <div id="app">
+        <b-container>
+            <b-row>
+                <b-col md="6" lg="3">1 of 2</b-col>
+                <b-col md="6" lg="9">2 of 2</b-col>
+            </b-row>
+    </b-container>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
